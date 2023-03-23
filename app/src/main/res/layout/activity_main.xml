@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:gravity="center_horizontal"
+        android:text="엔/빵"
+        android:textSize="48dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text=" 점심 및 저녁 식사, 즐거운 술자리 후 정산을 위한 어플!\n참여 인원에 맞는 정산 금액을 계산해 금액을 공유하세요!"
+        android:textSize="16dp"
+        android:gravity="center"/>
+
+    <android.widget.Button
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:text="계산하러 가기"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/white"
+        android:id="@+id/btnStart"/>
+
+</LinearLayout>
